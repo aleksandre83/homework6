@@ -1,0 +1,193 @@
+.conteiner {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+
+}
+
+/* header */
+header {
+    padding: 52px 98px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul {
+    display: flex;
+    column-gap: 50px;
+}
+
+.no_active {
+    color: #758BFD;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.active {
+    color: #27187F;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.search_conteiner {
+    display: flex;
+    Width: 222px;
+    Height: 56px;
+    border-radius: 10px;
+    border: 3px solid #758BFD;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.image_logo {
+    width: 32px;
+    height: 32px;
+
+
+}
+
+/* section */
+
+.section_one {
+    width: 1440px;
+    height: 1052px;
+    background: #DDEAF8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+
+
+
+}
+
+h2 {
+    color: #27187F;
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+
+}
+
+.section_div {
+    display: flex;
+    margin: 51px 22px;
+    flex-wrap: wrap;
+    width: 1244px;
+    height: 822px;
+    justify-content: space-between;
+
+
+}
+
+.div_img {
+    padding: 33px 30px;
+    border-radius: 10px;
+    background: #FFF;
+    width: 400px;
+    justify-content: center;
+    
+}
+
+p {
+    color: #133B3A;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 33px;
+}
+
+/* footer */
+
+.footer {
+
+    flex-wrap: wrap;
+    background: #758BFD;
+    padding: 75px 98px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.footer_div_2 {
+    width: 114px;
+    height: 22px;
+    padding: 75px;
+    display: flex;
+    width: 114px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+
+.footer_P {
+    width: 114px;
+    height: 22px;
+    color: #FFF;
+    font-family: Century Gothic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+
+
+}
+
+.footer_div {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 98px;
+    gap: 15px;
+    flex-wrap: wrap;
+
+
+}
+
+
+.visa {
+
+    padding: 13px 5px 15px 2px;
+    background: #FFF;
+    border-radius: 8px;
+
+}
+
+.master {
+
+    padding: 1px 5px 5px 7px;
+    background: #FFF;
+    border-radius: 8px;
+}
+
+.cash {
+
+    padding: 4px 4px 4px 0px;
+    background: #FFF;
+    border-radius: 8px;
+
+}
+
+.INSLALLMENTS {
+
+    padding: 0px 6px 0px 7px;
+    background: #FFF;
+    border-radius: 8px;
+
+}
